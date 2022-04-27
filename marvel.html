@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr"> 
+    <link rel="icon" href=
+    "img/nuagefavicon.png" type="image/x-icon">
+	<head> 
+        <link rel="stylesheet" href="marvel.css">
+        <link rel="stylesheet" href="marvel-responsive.css">
+		<meta charset="utf-8">
+		<title>Le Nuage | Film Marvel</title>
+	</head>
+	<body> 
+        <header>
+            <ul class="nav-bar">
+                <li><a class="active" href="index.html">Acceuil </a></li>
+                <li class="spe" id="spe">Catégories
+                    <ul class="sous-menu" id="sous-menu">
+                        <li class="sous"><a href="film.html">|Films|</a></li>
+                        <li class="sous"><a href="">|Séries|</a></li>
+                        <li class="sous"><a href="">|Animés|</a></li>
+                    </ul>
+                </li>
+                <li><a  href="#Bientôt">Bientôt</a></li>
+                <li><a  href="#Support">Support</a></li>
+            </ul>
+        </header>
+        <div class="container">
+            <h1 class="BigText">Malheureusement le site vient de sortir..Il n’y a pas tout d'ajouté, pour en savoir plus rejoint le discord</h1>
+            <a href="https://discord.gg/HUAJS6dgvA"><button class="btn2">Discord</button></a>
+	                <img class ="arcaneimg "src="https://cdn.discordapp.com/attachments/943626429655027792/962650381828104203/wallpaperflare.com_wallpaper_2.jpg" alt="">
+            <section class="moviesection">
+                <h2>Marvel</h2>
+                <hr class="rounded">
+                <div class="moviecontainer" id="movies">
+                    <div class="movieimg">
+                            <div class="content">
+                                <div class="myimages">
+                                    <img onclick="choice1()" src="https://image.tmdb.org/t/p/original/aYDRwraSc8SXgot5jabtspJTWZB.jpg" alt="captainmarvel">
+                                </div>
+                                <h2>Captain Marvel</h2>
+                                <span>2019</span>
+                            </div>
+
+                            <div class="content">
+                                <div class="myimages">
+                                    <img onclick="choice2()" src="https://fr.web.img2.acsta.net/pictures/21/11/09/13/18/2752951.jpg" alt="Spiderman">
+                                </div>
+                                <h2>Spiderman No Way Home</h2>
+                                <span>2021</span>
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+	</body> 
+    <script>
+        // javascript
+
+        const categories = document.getElementById("spe");
+        const sous_menu = document.getElementById("sous-menu");
+
+        categories.addEventListener("click", () =>{
+            sous_menu.classList.toggle("sous-menu-active");
+        });
+        
+        // choix
+        function choice1() {
+           window.location.href = "watch.php?theFilm=captaine"
+        }
+        function choice2() {
+           window.location.href = "watch.php?theFilm=spiderman";
+        }
+    </script>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en"> 
+	<head> 
+        <link rel="icon" href="img/nuagefavicon.png" type="image/x-icon">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="reponsive-index.css">
+		<meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+		<title>Le Nuage | Acceuil</title>
+	</head>
+	<body> 
+        <header>
+            <ul class="nav-bar">
+                <li><a class="active" href="index.html">Acceuil </a></li>
+                <li class="spe" id="spe">Catégories
+                    <ul class="sous-menu" id="sous-menu">
+                        <li class="sous"><a href="film.html">|Films|</a></li>
+                        <li class="sous"><a href="">|Séries|</a></li>
+                        <li class="sous"><a href="">|Animés|</a></li>
+                    </ul>
+                </li>
+                <li><a  href="#Bientôt">Bientôt</a></li>
+                <li><a  href="#Support">Support</a></li>
+            </ul>
+            <a href="https://discord.gg/HUAJS6dgvA"></a><button class="btn2"><a href="https://discord.gg/HUAJS6dgvA">Discord</a></button>
+        </header>
+        <nav>
+            <div class="container">
+                <div class="font">
+                    <img class ="arcaneimg " src="img/wallpaperflare.com_wallpaper (2).jpg" alt="">
+                </div>
+
+                <h1 class="BigText">Malheureusement le site vient de sortir..Il n’y a pas tout d'ajouté, pour en savoir plus rejoint le discord</h1>
+                
+                <h1 class="DiscordWidget"><iframe src="https://discord.com/widget?id=926777008187387954&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></h1>
+                
+                <section class="moviesection">
+                    <h2>Le Nuage ☁🍃</h2>
+                    <hr class="rounded">
+                    <div class="moviecontainer" id="movies">
+                        <div class="movieimg">
+                            <h2>Le Nuage n'héberge aucune vidéo sur ses serveurs. Contactez-nous ou contactez directement la plateforme d'hébergement 
+                                vidéo pour toute réclamation de droits relatifs aux contenus présents sur le site.</h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </nav>
+	</body> 
+    <script>
+        // javascript
+
+        const categories = document.getElementById("spe");
+        const sous_menu = document.getElementById("sous-menu");
+
+        categories.addEventListener("click", () =>{
+            sous_menu.classList.toggle("sous-menu-active");
+        });
+    </script>
+</html>

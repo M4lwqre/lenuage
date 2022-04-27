@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* 1314px */
+@media screen and (max-width: 1314px) {
+    .BigText{
+        left: 1%;
+    }
+    iframe.discord{
+        width: 300px;
+        height: 350px;
+    }
+}
+
+/* 948px */
+@media screen and (max-width: 981px) {
+    .BigText{
+        left: 20%;
+        top: 150px;
+    }
+    .moviesection{
+        margin-top: 300px;
+    }
+}

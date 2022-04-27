@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+
+}
+.btn{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    background-color: rgb(170, 0, 102);
+    color: white;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn2{
+    position: absolute;
+    top: 1%;
+    float: right;
+    right: 1%;
+    background-color: rgb(170, 0, 102);
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.btn2:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.BigText{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 30%;
+    font-size: 300%;
+    color: white;
+}
+
+.DiscordWidget{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 30%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(170, 0, 102);
+    border-radius: 10px;
+}
+.arcaneimg{
+    /* width: 1850px;
+    height: 1000px; */
+    width: 100%;
+    height: auto;
+}
+.moviesection{
+    /* max-width: 900px; */
+    text-transform: uppercase;
+    padding-left: 10%;
+    color: white;
+}
+hr.rounded{
+    border-top: 3px solid rgb(170, 0, 102);
+    border-radius: 5px;
+}
+.movieimg .myimages{
+    height: 500px;
+    width: 280px;
+}
+.movieimg .myimages img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.movieimg{
+    float: left;
+    width: 30%;
+    padding: 15px;
+    padding-left: 5px;
+}
+.moviecontainer::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* .moviecontainer{
+    width: 100%;
+} */
+
+.spe{
+    color: white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+}
+.spe:hover{
+    background-color: rgb(170, 0, 102);
+    cursor: pointer;
+}
+ul.sous-menu{
+    margin-top: 15px;
+    position: absolute;
+    display: none;
+    flex-direction: row;
+    background-color: black;
+    opacity: 0.8;
+    height: 50px;
+    z-index: 1000000000000000;
+}
+ul.sous-menu-active{
+    display: flex;
+    transition: 1s;
+}
+li.sous{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 984px) {
+    .BigText{
+        width: 70%;
+        top: 10%;
+    }
+}

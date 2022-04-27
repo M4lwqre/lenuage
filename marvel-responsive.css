@@ -1,0 +1,27 @@
+div.content{
+    margin: 5px;
+}
+
+/* 1419px */
+@media screen and (max-width: 1419px) {
+    .BigText{
+        width: 70%;
+        top: 10%;
+    }
+}
+
+/* 826px */
+/* @media screen and (max-width: 826px) {
+    .BigText{
+        width: 70%;
+        top: 10%;
+    }
+} */
+
+/* 541px */
+@media screen and (max-width: 541px) {
+    .BigText{
+        width: 70%;
+        top: 4%;
+    }
+}

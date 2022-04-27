@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* changement à partir de 1402px */
+@media screen and (max-width: 1402px) {
+    .BigText{
+        top: 20%;
+    }
+} 
+
+/* changement à 1254px */
+@media screen and (max-width: 1242px) {
+    .BigText{
+        font-size: 250%;
+    }
+    iframe{
+        width: 300px;
+        height: 400px;
+    }
+} 
+
+/* changement à 1107px */
+@media screen and (max-width: 1107px) {
+    .BigText{
+        font-size: 200%;
+        width: 40%;
+    }
+    iframe{
+        width: 300px;
+        height: 400px;
+    }
+} 
+
+/* changement à 984px
+@media screen and (max-width: 984px) {
+    .BigText{
+        width: 70%;
+        top: 10%;
+    }
+}
+ */
+
+@media screen and (max-width: 984px) {
+    .BigText{
+        width: 70%;
+        top: 10%;
+    }
+}
