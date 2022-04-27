@@ -34,7 +34,7 @@
                     <div class="movieimg">
                             <div class="content">
                                 <div class="myimages">
-                                    <img onclick="choice1()" src="https://image.tmdb.org/t/p/original/aYDRwraSc8SXgot5jabtspJTWZB.jpg" alt="captainmarvel">
+                                    <img onclick="'watch.php?theFilm=spiderman'" src="https://image.tmdb.org/t/p/original/aYDRwraSc8SXgot5jabtspJTWZB.jpg" alt="captainmarvel">
                                 </div>
                                 <h2>Captain Marvel</h2>
                                 <span>2019</span>
@@ -42,7 +42,7 @@
 
                             <div class="content">
                                 <div class="myimages">
-                                    <img onclick="choice2()" src="https://fr.web.img2.acsta.net/pictures/21/11/09/13/18/2752951.jpg" alt="Spiderman">
+                                    <img onclick="'watch.php?theFilm=captaine'" src="https://fr.web.img2.acsta.net/pictures/21/11/09/13/18/2752951.jpg" alt="Spiderman">
                                 </div>
                                 <h2>Spiderman No Way Home</h2>
                                 <span>2021</span>
@@ -62,12 +62,5 @@
             sous_menu.classList.toggle("sous-menu-active");
         });
         
-        // choix
-        function choice1() {
-           window.location.href = "watch.php?theFilm=captaine"
-        }
-        function choice2() {
-           window.location.href = "watch.php?theFilm=spiderman";
-        }
     </script>
 </html>
